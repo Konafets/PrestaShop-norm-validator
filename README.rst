@@ -21,7 +21,7 @@ System-wide
 
 ::
 
-        $ composer global require "konafets/prestashop-codingstandard": "dev-master" ```
+        $ composer global require "konafets/prestashop-codingstandard": "dev-develop" ```
 
 Make sure you have ~/.composer/vendor/bin/ in your PATH.
 
@@ -34,17 +34,7 @@ Create a composer.json in the root folder of your project and declare this stand
 
         {
                 "require": {
-                        "konafets/prestashop-codingstandard": "~1.0"
-                }
-        }
-
-This will install latest version from the 1.0 branch of this standard. If you live on the edge, try:
-
-::
-
-        {
-                "require": {
-                        "konafets/prestashop-codingstandard": "dev-master"
+                        "konafets/prestashop-codingstandard": "dev-develop"
                 }
         }
 
