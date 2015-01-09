@@ -2,6 +2,8 @@
 PrestaShopCodingStandard
 ========================
 
+**This is a heavy refactored fork of the origin CodingStandard of PrestaShop, which can be find here:** `PrestaShop-norm-validator <https://github.com/PrestaShop/PrestaShop-norm-validator>`_
+
 Installation
 ============
 
