@@ -19,11 +19,7 @@ In case you don't installed PHP_CodeSniffer yet - no problem. This package is ma
 System-wide
 """""""""""
 
-::
-
-        $ composer global require "konafets/prestashop-codingstandard": "dev-develop" ```
-
-Make sure you have ~/.composer/vendor/bin/ in your PATH.
+Will come soon.
 
 Project-wide
 """"""""""""
@@ -33,6 +29,7 @@ Create a composer.json in the root folder of your project and declare this stand
 ::
 
         {
+                "minimum-stability" : "dev",
                 "require": {
                         "konafets/prestashop-codingstandard": "dev-develop"
                 }
@@ -40,7 +37,11 @@ Create a composer.json in the root folder of your project and declare this stand
 
 Since the package is managed with `Packagist <https://packagist.org>`_ this is all what you need.
 
-These commands will install the PHP_CodeSniffer into the *vendor/* folder of your project. For more informations about Composer have a look at their `documentation <http://getcomposer.org/doc/00-intro.md>`_.
+::
+
+        $ composer install
+
+Make sure you have ~/.composer/vendor/bin/ in your PATH. This will install the PHP_CodeSniffer into the *vendor/* folder of your project. For more informations about Composer have a look at their `documentation <http://getcomposer.org/doc/00-intro.md>`_.
 
 PEAR
 ----
@@ -64,7 +65,6 @@ PEAR
 
 Does it sniff?
 --------------
-
 
 Check if the standard installed correctly by call the following from the terminal:
 
